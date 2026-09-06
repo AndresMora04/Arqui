@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="c5f49ac3-6520-4bec-bc63-613314f904b7" Zoom="0.7000000000000001" LogicalCircuitId="642e6a2d-47e2-44c7-ae83-5b147409ef0e" CategoryTextNoteCollapsed="True" />
+	<Project ProjectId="c5f49ac3-6520-4bec-bc63-613314f904b7" Zoom="0.40000000000000013" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" CategoryTextNoteCollapsed="True" />
 	<LogicalCircuit LogicalCircuitId="bf59ba3e-fab9-4ca9-95f0-9ef8fca4461e" Name="ALU_SumadorCompleto1bit" Notation="ALU_SumCompl" Note="Sumador completo de 1 bit. Entradas: A, B, Cin. &#xA;Salidas: S, Cout. Unidad básica del ALU_Sumador8bits." />
 	<LogicalCircuit LogicalCircuitId="642e6a2d-47e2-44c7-ae83-5b147409ef0e" Name="ALU_Sumador8bits" Notation="ALU_Sum8" Note="Sumador/Restador de 8 bits en Complemento a 2. &#xA;Entradas: A[8], B[8], SubMode[1]. &#xA;Salidas: Y[8], Cout[1]. &#xA;Construido encadenando 8 copias de ALU_SumadorCompleto1bit." Category="ALU" />
 	<LogicalCircuit LogicalCircuitId="570dde96-8b3f-4048-88fc-dfb5f887628e" Name="ALU_BanderaCero" Notation="Zero" Note="Indica si el resultado Y de la ALU es igual a 0. &#xD;&#xA;Entrada: Y[8]. Salida: Zero[1]. &#xD;&#xA;Zero=1 solo si los 8 bits de Y son 0 simultáneamente." Category="ALU" />
@@ -165,93 +165,21 @@
 	<Pin PinId="d65002cd-7042-4234-9df9-6f28443c18a2" CircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" Name="Cin" JamNotation="C" />
 	<Constant ConstantId="7030786b-b83d-45f4-a69d-d6fe82ddbf97" />
 	<Constant ConstantId="dcd79b47-a414-4012-97be-f111ca2c132b" BitWidth="8" />
-	<CircuitButton CircuitButtonId="b19453f2-8085-4853-93e3-6755d84b78e6" IsToggle="True" />
 	<CircuitButton CircuitButtonId="cf5a3ef4-d8c3-47bc-8dcb-641e21c45d2b" IsToggle="True" />
 	<CircuitButton CircuitButtonId="a638c991-7c56-4d13-8ee9-0deccf5c5724" IsToggle="True" />
 	<CircuitButton CircuitButtonId="bf8515e9-811e-4c6a-8fc0-9707848dc689" IsToggle="True" />
-	<CircuitButton CircuitButtonId="575e0526-ecab-4f1b-b035-436e604521bf" IsToggle="True" />
-	<CircuitButton CircuitButtonId="ba39998f-08ca-4d08-9295-9496196bd7d1" IsToggle="True" />
-	<CircuitButton CircuitButtonId="e073679e-db3f-4c1d-8072-b8dcbf83b790" IsToggle="True" />
-	<CircuitButton CircuitButtonId="6fa48907-2cb0-46a0-8a7f-a6ef1b079cae" IsToggle="True" />
-	<CircuitButton CircuitButtonId="b99be98d-fdb7-4c33-a5a9-b958f17babe9" IsToggle="True" />
 	<CircuitButton CircuitButtonId="88f29dbe-1a69-4afe-ac97-35f22614d18f" Notation="Q5" IsToggle="True" />
 	<CircuitButton CircuitButtonId="4880eb22-5b6d-49b6-b826-4715d3b0c078" Notation="M2" IsToggle="True" />
-	<CircuitButton CircuitButtonId="8b58ab89-9fd5-4cc7-94db-ad6b786379f8" IsToggle="True" />
-	<CircuitButton CircuitButtonId="f4f3f67f-db88-45fb-94c0-ec4ef6029162" IsToggle="True" />
-	<CircuitButton CircuitButtonId="9104df9d-04a9-4f04-85a7-f5f2c0eab0a0" IsToggle="True" />
-	<CircuitButton CircuitButtonId="991405f7-1c1b-43ca-ac3a-f585f5b34576" IsToggle="True" />
-	<CircuitButton CircuitButtonId="4153a036-5f21-41d0-a62a-1a2796f60dfe" IsToggle="True" />
-	<CircuitButton CircuitButtonId="3932384e-1868-4c70-9c71-3fc8d1722b3b" IsToggle="True" />
-	<CircuitButton CircuitButtonId="560916f4-f851-42de-a775-62ec33383318" IsToggle="True" />
-	<CircuitButton CircuitButtonId="a287ffa1-200f-4bff-9c12-af9232f5d85e" IsToggle="True" />
-	<CircuitButton CircuitButtonId="579ec525-598d-427a-aa6a-c927a0e85c43" IsToggle="True" />
-	<CircuitButton CircuitButtonId="2c4e9a84-0793-4bbd-b75b-19a935818469" IsToggle="True" />
-	<CircuitButton CircuitButtonId="d40db309-d3dd-462c-8a57-31af412daffd" IsToggle="True" />
-	<CircuitButton CircuitButtonId="76b7d52a-db1b-4db5-9555-97fec5512f1f" IsToggle="True" />
-	<CircuitButton CircuitButtonId="3e3c3471-f5f0-46f8-badc-76e3c818cb2d" IsToggle="True" />
-	<CircuitButton CircuitButtonId="ccd94d4b-acab-4657-b37d-75298e8d76ff" IsToggle="True" />
-	<CircuitButton CircuitButtonId="7a0709e6-7141-4af0-b606-508a933f9468" IsToggle="True" />
-	<CircuitButton CircuitButtonId="2e013fb1-189b-4114-9508-3cbc024d9557" IsToggle="True" />
-	<CircuitButton CircuitButtonId="088c3d1a-41ab-4594-8f36-9af0095c6e6f" IsToggle="True" />
-	<CircuitButton CircuitButtonId="6447aee6-7fad-41dd-bfe6-e5d4bdb0a945" Notation="clr" IsToggle="True" />
-	<CircuitButton CircuitButtonId="47ea8ff8-0f2b-4f99-9ed8-0440ccae85fb" Notation="c" IsToggle="True" />
-	<CircuitButton CircuitButtonId="b5782add-be05-4857-b04a-e375d0fff5cf" Notation="load" IsToggle="True" />
-	<CircuitButton CircuitButtonId="f6c480c2-b280-445f-bd4e-9d3a3abf01c8" IsToggle="True" />
-	<CircuitButton CircuitButtonId="7ceda9e2-e9db-4186-a6e9-3072fb3200d4" Notation="7" IsToggle="True" />
-	<CircuitButton CircuitButtonId="ceda2560-62ce-461e-947b-4cb6bd666862" Notation="6" IsToggle="True" />
-	<CircuitButton CircuitButtonId="05e77f29-69b5-45dc-9227-7c49e3c7eee9" Notation="7" IsToggle="True" />
-	<CircuitButton CircuitButtonId="9958834f-6fe4-4735-8475-2e09a6348d54" Notation="5" IsToggle="True" />
-	<CircuitButton CircuitButtonId="f14e4815-cdbc-4fe8-a923-54f42d954ca2" Notation="4" IsToggle="True" />
-	<CircuitButton CircuitButtonId="656e5708-1ce6-40bc-9a76-3906181520a1" Notation="1" IsToggle="True" />
-	<CircuitButton CircuitButtonId="b76e507d-82eb-42a7-9a68-88018a698907" Notation="0" IsToggle="True" />
-	<CircuitButton CircuitButtonId="1129017a-07a0-4b61-8a02-872d45ab81aa" IsToggle="True" />
-	<CircuitButton CircuitButtonId="93daf4ae-bce4-40a1-873c-7e2c96d902f0" Notation="1" IsToggle="True" />
-	<CircuitButton CircuitButtonId="404930c2-a776-4eeb-a6a1-61904fab29ec" Notation="3" IsToggle="True" />
-	<CircuitButton CircuitButtonId="9bb9c788-d965-419a-999b-34e429b5327d" Notation="6" IsToggle="True" />
-	<CircuitButton CircuitButtonId="159548cb-6227-4887-b59a-0768a4439898" Notation="5" IsToggle="True" />
-	<CircuitButton CircuitButtonId="a062ae84-3099-4abf-8316-f8829c553b28" Notation="2" IsToggle="True" />
-	<CircuitButton CircuitButtonId="37629c95-a0c4-4184-a3ef-82ed40152dcd" Notation="3" IsToggle="True" />
-	<CircuitButton CircuitButtonId="7207b13f-ade2-469e-9c81-63fc37eab24b" Notation="0" IsToggle="True" />
-	<CircuitButton CircuitButtonId="0765132b-ec45-4c77-b1ed-1a4de214a10d" Notation="4" IsToggle="True" />
-	<CircuitButton CircuitButtonId="94f410d5-9124-4162-819c-7fe8f3a238b8" Notation="2" IsToggle="True" />
-	<CircuitButton CircuitButtonId="6cd5ebed-99ea-4754-948c-3d26bea0db95" IsToggle="True" />
-	<CircuitButton CircuitButtonId="bd8b2781-31ce-4285-a817-363af401d901" IsToggle="True" />
-	<CircuitButton CircuitButtonId="71027184-0798-46e1-93ef-41a273a8e013" IsToggle="True" />
-	<CircuitButton CircuitButtonId="ded65f5d-c1e4-4dd9-b2d0-db4cf5369586" IsToggle="True" />
-	<CircuitButton CircuitButtonId="036e565b-927e-4c78-a7c8-458890ecd245" IsToggle="True" />
-	<CircuitButton CircuitButtonId="7e1777d0-6d6b-4bc3-b123-3995a472d58c" IsToggle="True" />
-	<CircuitButton CircuitButtonId="a952fcd8-ea52-4739-82aa-5928aa51eebd" IsToggle="True" />
-	<CircuitButton CircuitButtonId="6e97fb26-4070-4f4c-8430-edd90dcc6e8b" IsToggle="True" />
-	<CircuitButton CircuitButtonId="590d8595-3535-45e8-b165-b5c3f970af6d" IsToggle="True" />
-	<CircuitButton CircuitButtonId="66a255c8-04aa-4e99-858e-3c8069b8e5b8" IsToggle="True" />
-	<CircuitButton CircuitButtonId="13658cbc-6935-4248-921f-605bc95978ca" IsToggle="True" />
-	<CircuitButton CircuitButtonId="4b239b0a-bf04-46bb-b9e6-2adf5dd9fc89" IsToggle="True" />
-	<CircuitButton CircuitButtonId="376f7ff9-59e4-4bb4-8cbb-010bc0e574ec" IsToggle="True" />
-	<CircuitButton CircuitButtonId="7e304141-a2f0-495f-8489-866af2c701ba" IsToggle="True" />
-	<CircuitButton CircuitButtonId="b3ee2544-eb4d-4213-b852-0e04a9c1326c" IsToggle="True" />
-	<CircuitButton CircuitButtonId="8fd3d5e8-64d2-4517-8880-9d0ad41fe5d6" IsToggle="True" />
-	<CircuitButton CircuitButtonId="199547ae-8bbe-40af-aca4-904529553f29" IsToggle="True" />
-	<CircuitButton CircuitButtonId="0f3fdd1f-4017-4df4-98af-2d95836b94b8" IsToggle="True" />
-	<CircuitButton CircuitButtonId="e690ea33-2614-41eb-bbcc-5721d81c41bd" IsToggle="True" />
-	<CircuitButton CircuitButtonId="f7481464-b7ef-4328-b9a4-7fa3533446d6" IsToggle="True" />
-	<CircuitButton CircuitButtonId="9cc39959-e6a1-4ff3-b940-1082eaac0846" IsToggle="True" />
-	<CircuitButton CircuitButtonId="e15a7da7-74f4-4eeb-8f67-ba8afa287703" IsToggle="True" />
-	<CircuitButton CircuitButtonId="5d130640-2e65-4d82-bfb9-a5938a56f317" IsToggle="True" />
-	<CircuitButton CircuitButtonId="99160784-1d1e-4924-9a9a-1ca897893196" IsToggle="True" />
 	<CircuitButton CircuitButtonId="b16b6caa-0973-4537-8576-2f2923f68030" IsToggle="True" />
 	<CircuitButton CircuitButtonId="c0abe6be-8204-4986-be1b-9ef7e3fb2c9e" IsToggle="True" />
 	<CircuitButton CircuitButtonId="91a3c261-8edb-4ec8-a556-82588e08b116" IsToggle="True" />
 	<CircuitButton CircuitButtonId="22ea0019-4038-477c-89ad-70347131d90b" IsToggle="True" />
-	<CircuitButton CircuitButtonId="c34fd44b-5438-4d16-a263-ff70773843c9" IsToggle="True" />
-	<CircuitButton CircuitButtonId="f878a073-90c3-4476-a3ce-270afabd67bb" IsToggle="True" />
 	<CircuitButton CircuitButtonId="e6f1c7d7-927f-4bba-8b46-cabb66c392fb" IsToggle="True" />
-	<CircuitButton CircuitButtonId="7d8d8ee0-9523-4206-862b-fc25d3e26a55" IsToggle="True" />
 	<CircuitButton CircuitButtonId="b02fa5b3-cc57-4d88-8a28-0a28de24aa57" IsToggle="True" />
 	<CircuitButton CircuitButtonId="b1d8af81-0114-4b9c-927d-d5c4edd9fafe" IsToggle="True" />
 	<CircuitButton CircuitButtonId="707d0d9a-59e9-4252-a846-21ec949ba569" IsToggle="True" />
 	<CircuitButton CircuitButtonId="604b2a6a-9473-449a-91ad-4eb17d47dc46" IsToggle="True" />
 	<CircuitButton CircuitButtonId="c34e91db-8394-435c-9093-88adfce2b4f9" IsToggle="True" />
-	<CircuitButton CircuitButtonId="93e5316d-dede-4792-a88f-9792186dabce" IsToggle="True" />
 	<CircuitButton CircuitButtonId="b03abe03-3674-4ce5-8c19-8b251a2a3684" IsToggle="True" />
 	<CircuitButton CircuitButtonId="0fbc384b-74b2-4a7b-a38a-be2213f699f1" IsToggle="True" />
 	<CircuitButton CircuitButtonId="f2e7ac9b-6d8f-4a4f-9ac8-7f0077d9bff4" Notation="M5" IsToggle="True" />
@@ -372,7 +300,6 @@
 	<CircuitSymbol CircuitSymbolId="94e4f9e0-4c5d-41f3-9a41-86226ab9b292" CircuitId="8b3d0d59-48d6-4729-a946-14edc81c2394" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X="39" Y="10" />
 	<CircuitSymbol CircuitSymbolId="2fa1d35b-bc6a-49bf-818b-ad17a69d3209" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X="20" Y="17" />
 	<CircuitSymbol CircuitSymbolId="0b6ffc74-f558-4754-936d-d412960249ab" CircuitId="fd7e4cff-1846-48db-bb23-508e5d7a637a" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X="32" Y="10" />
-	<CircuitSymbol CircuitSymbolId="3de2da87-efe1-46b7-b523-aa5611af25cb" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X="47" Y="10" />
 	<CircuitSymbol CircuitSymbolId="f1aae2a1-a5d0-45d2-bebd-d4d6db51eac0" CircuitId="7bd0ffe6-ba26-4d61-bd44-93cee3107ba0" LogicalCircuitId="5abc6f77-a01a-4daa-aa2b-b48c5f443d11" X="13" Y="15" />
 	<CircuitSymbol CircuitSymbolId="5f491fd0-ca69-479d-aa40-df00496e0d1f" CircuitId="a5542cf9-679c-45f7-9636-d277156098ef" LogicalCircuitId="5abc6f77-a01a-4daa-aa2b-b48c5f443d11" X="13" Y="31" />
 	<CircuitSymbol CircuitSymbolId="f944c4b1-c128-4730-a354-f3dbdc50421f" CircuitId="6317bca8-2c9e-49ea-8228-5b9ece2b39a0" LogicalCircuitId="5abc6f77-a01a-4daa-aa2b-b48c5f443d11" X="13" Y="47" />
@@ -525,20 +452,12 @@
 	<CircuitSymbol CircuitSymbolId="3c3d3798-bec5-4c17-a05f-8733f652e3ba" CircuitId="30cf6315-1e28-4181-bb7a-8b5f8ea15feb" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="7" />
 	<CircuitSymbol CircuitSymbolId="2f78d2f5-3832-4a19-b039-8440f4820a00" CircuitId="55eaa564-514c-4c4a-9093-e4214637c3bc" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="14" />
 	<CircuitSymbol CircuitSymbolId="7b5d7676-be6c-45d7-a449-496165afa91d" CircuitId="1fc6be03-7ce8-416d-a237-becd7be8061a" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="17" />
-	<CircuitSymbol CircuitSymbolId="19df1776-adbe-45ce-a908-8b94164048c6" CircuitId="b19453f2-8085-4853-93e3-6755d84b78e6" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="17" />
 	<CircuitSymbol CircuitSymbolId="fc8d2c94-4228-48b5-a36b-94c219a930ad" CircuitId="cf5a3ef4-d8c3-47bc-8dcb-641e21c45d2b" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="5" Y="122" />
 	<CircuitSymbol CircuitSymbolId="9a7fe2da-a97d-45a8-a4a4-f1616e60529d" CircuitId="a638c991-7c56-4d13-8ee9-0deccf5c5724" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="5" Y="118" />
 	<CircuitSymbol CircuitSymbolId="b9ffd8cb-a353-47ec-a99b-398d6d0cbff5" CircuitId="bf8515e9-811e-4c6a-8fc0-9707848dc689" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="5" Y="114" />
-	<CircuitSymbol CircuitSymbolId="228542b3-7a44-41ba-b9db-c4e3bc178dbd" CircuitId="575e0526-ecab-4f1b-b035-436e604521bf" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="14" />
-	<CircuitSymbol CircuitSymbolId="5338b586-1736-4005-9ef6-58f7b82c6d78" CircuitId="ba39998f-08ca-4d08-9295-9496196bd7d1" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="11" />
-	<CircuitSymbol CircuitSymbolId="8bf06e4b-8d71-479b-a3d0-fc1ed7abc849" CircuitId="e073679e-db3f-4c1d-8072-b8dcbf83b790" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="7" />
-	<CircuitSymbol CircuitSymbolId="35cb43d7-df84-44e7-9517-a08cd293d889" CircuitId="6fa48907-2cb0-46a0-8a7f-a6ef1b079cae" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="4" />
-	<CircuitSymbol CircuitSymbolId="9016c565-1119-42df-8166-56967d0e7c48" CircuitId="b99be98d-fdb7-4c33-a5a9-b958f17babe9" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="1" />
 	<CircuitSymbol CircuitSymbolId="1a120d83-ad6b-45bd-bd39-08e453258b2f" CircuitId="88f29dbe-1a69-4afe-ac97-35f22614d18f" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="27" Y="38" />
 	<CircuitSymbol CircuitSymbolId="668d1df3-ce7b-4954-abbb-9dcba3b74fd6" CircuitId="4880eb22-5b6d-49b6-b826-4715d3b0c078" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="36" Y="10" />
 	<CircuitSymbol CircuitSymbolId="2de07c70-dd53-4ec5-ba2e-36bf07ca6f74" CircuitId="7030786b-b83d-45f4-a69d-d6fe82ddbf97" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="54" />
-	<CircuitSymbol CircuitSymbolId="6fa3a01b-1dca-4e72-b579-5966e6d02fb5" CircuitId="8b58ab89-9fd5-4cc7-94db-ad6b786379f8" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="5" Y="28" />
-	<CircuitSymbol CircuitSymbolId="7817a959-aae4-4808-afdd-8d74e2c8d845" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="62" Y="26" />
 	<CircuitSymbol CircuitSymbolId="00d3fc2c-f796-4ec8-985f-b46b929ccd6b" CircuitId="4f4f6e73-b20d-4a84-b1ff-6de7a974d8b9" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="11" Y="28" />
 	<CircuitSymbol CircuitSymbolId="86d83784-4e8a-4210-8b17-25d948e32883" CircuitId="c70e8e81-696e-4cfd-bd52-a0371f537b21" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="11" Y="30" />
 	<CircuitSymbol CircuitSymbolId="ef4d9eca-3378-470c-9603-2f1a55e3ce71" CircuitId="ddeb88ca-bb32-4ae2-b883-5133c12fd364" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="54" Y="26" />
@@ -547,7 +466,6 @@
 	<CircuitSymbol CircuitSymbolId="440f12f2-4245-46c2-938a-05606fc7142f" CircuitId="e76e1659-5105-4369-beec-83a8d07e1278" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="16" Y="13" />
 	<CircuitSymbol CircuitSymbolId="02d3d897-7bca-4171-9168-24fdf5c4e603" CircuitId="b5b15d9f-a4fc-4b1e-8202-7772f445e28a" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="16" Y="19" />
 	<CircuitSymbol CircuitSymbolId="cc13ba02-253a-4656-9854-7a2f1ee6f40c" CircuitId="00000000-0000-0000-0000-000000020101" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="26" Y="18" />
-	<CircuitSymbol CircuitSymbolId="51c4d7f0-e25c-4933-8bb2-c763152744a1" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="51" Y="15" />
 	<CircuitSymbol CircuitSymbolId="b5f6492f-a123-4921-93ce-d7471bcfbddf" CircuitId="00000000-0000-0000-0000-000000040301" LogicalCircuitId="d0dd2d20-eed6-49a1-89b4-5438fff8dc02" X="35" Y="15" />
 	<CircuitSymbol CircuitSymbolId="75aa9b0e-f7a9-48ad-af01-17f1b22acdb8" CircuitId="42c62729-046a-47b0-a851-f84a6173a039" LogicalCircuitId="d0dd2d20-eed6-49a1-89b4-5438fff8dc02" X="25" Y="23" />
 	<CircuitSymbol CircuitSymbolId="52134301-207d-441b-81a7-f3a3dc87eb5a" CircuitId="0ced3116-8b8d-450b-9c61-746a9e6951be" LogicalCircuitId="d0dd2d20-eed6-49a1-89b4-5438fff8dc02" X="47" Y="8" />
@@ -561,27 +479,16 @@
 	<CircuitSymbol CircuitSymbolId="6386f22d-d725-4d83-a4e6-c6833aa63dc7" CircuitId="d0dd2d20-eed6-49a1-89b4-5438fff8dc02" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="23" Y="13" />
 	<CircuitSymbol CircuitSymbolId="5f413594-5a77-4b2d-b96d-92ef35ef2f72" CircuitId="9e11f5e9-a2a6-4a09-9d80-0897546b1b1c" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="21" Y="22" />
 	<CircuitSymbol CircuitSymbolId="586f1a48-4e44-4d62-9172-071af144661e" CircuitId="09e89558-82e4-4e34-ae00-00039d565b33" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="39" Y="13" />
-	<CircuitSymbol CircuitSymbolId="d9ea8949-362d-4024-886f-121bc5c1401a" CircuitId="f4f3f67f-db88-45fb-94c0-ec4ef6029162" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="8" Y="13" />
-	<CircuitSymbol CircuitSymbolId="98ff55b7-f2e9-4d90-9ddd-da9334f2b2c0" CircuitId="9104df9d-04a9-4f04-85a7-f5f2c0eab0a0" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="8" Y="19" />
-	<CircuitSymbol CircuitSymbolId="ad132ec0-5662-4e3f-940e-ee120ed83e53" CircuitId="991405f7-1c1b-43ca-ac3a-f585f5b34576" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="8" Y="22" />
-	<CircuitSymbol CircuitSymbolId="94ee83a1-144c-4085-9112-a38f6db2e637" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="47" Y="15" />
 	<CircuitSymbol CircuitSymbolId="4153d362-b970-4d68-bc1e-3bd6f971ae4c" CircuitId="d0dd2d20-eed6-49a1-89b4-5438fff8dc02" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="31" Y="13" />
 	<CircuitSymbol CircuitSymbolId="f2c3fab5-d391-4769-8422-3e822f17bf64" CircuitId="30b98af3-d2f1-4cee-836c-9a7a15f49cfc" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="39" Y="15" />
 	<CircuitSymbol CircuitSymbolId="24d6bbde-dff0-406f-b160-8d7f25ba3df8" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="33" Y="26" />
-	<CircuitSymbol CircuitSymbolId="c5641de0-2af7-464c-a4ad-1af123475b72" CircuitId="4153a036-5f21-41d0-a62a-1a2796f60dfe" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="5" Y="18" />
-	<CircuitSymbol CircuitSymbolId="8356da90-959d-4cc7-af86-e404236e22ee" CircuitId="3932384e-1868-4c70-9c71-3fc8d1722b3b" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="5" Y="20" />
-	<CircuitSymbol CircuitSymbolId="b61c5ab7-d673-4ea8-98fa-2f35949a34b2" CircuitId="560916f4-f851-42de-a775-62ec33383318" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="5" Y="30" />
-	<CircuitSymbol CircuitSymbolId="e14fedb3-389b-4c47-ae12-21c22c4f5c71" CircuitId="a287ffa1-200f-4bff-9c12-af9232f5d85e" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="7" Y="10" />
 	<CircuitSymbol CircuitSymbolId="7f1c2a08-7686-4156-befa-409fb54a176b" CircuitId="00000000-0000-0000-0000-000000020101" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="17" Y="20" />
 	<CircuitSymbol CircuitSymbolId="24dcd633-e0ec-46d9-9242-b73b1e7976fd" CircuitId="26c676bd-2e6f-422b-b412-d30117e4603c" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="31" Y="13" />
-	<CircuitSymbol CircuitSymbolId="465c86e8-ac62-4a22-8444-e89d48eb7071" CircuitId="579ec525-598d-427a-aa6a-c927a0e85c43" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="7" Y="21" />
 	<CircuitSymbol CircuitSymbolId="fcfc1078-ad5b-49c6-91ff-b9358e969616" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="22" Y="10" />
 	<CircuitSymbol CircuitSymbolId="1260f410-510f-4ea3-b757-38c30da2bd62" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="22" Y="14" />
 	<CircuitSymbol CircuitSymbolId="1fbb1a80-04d8-4c40-8df8-21542a4ffa1a" CircuitId="99b674d7-5d03-47d6-bcf7-942a570989b4" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="13" Y="10" />
 	<CircuitSymbol CircuitSymbolId="919097f6-4257-496b-b02a-7f7125cd9fab" CircuitId="74fbef26-3d18-4fd7-9b15-51713d23c322" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="13" Y="21" />
 	<CircuitSymbol CircuitSymbolId="bd138e69-26f2-4ee6-b2a7-b7179f29ab06" CircuitId="00000000-0000-0000-0000-000000030200" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="27" Y="12" />
-	<CircuitSymbol CircuitSymbolId="81cbb7a1-6684-41a6-a0ad-8c498bb193b2" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="40" Y="13" />
-	<CircuitSymbol CircuitSymbolId="b7356751-5926-4301-a7e8-afa13fb921e1" CircuitId="2c4e9a84-0793-4bbd-b75b-19a935818469" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="7" Y="14" />
 	<CircuitSymbol CircuitSymbolId="809df81c-f0b4-4ad6-926e-e99a962521ad" CircuitId="3b2ce91f-2a90-4285-ad4a-34b6889660a5" LogicalCircuitId="deced87d-885d-4681-af17-6a0647c3ac08" X="13" Y="14" />
 	<CircuitSymbol CircuitSymbolId="e0696dfb-1ceb-4646-b6e6-4b418fa0761d" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" X="25" Y="25" />
 	<CircuitSymbol CircuitSymbolId="b8f27421-4bdc-4b2a-9c0c-6245d972ad56" CircuitId="d8c8a0ce-4735-42e6-9a1e-71acd0286f31" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="116" Y="101" />
@@ -590,8 +497,6 @@
 	<CircuitSymbol CircuitSymbolId="7463656f-790c-4d34-9a71-a26df2e2809f" CircuitId="e23360cf-54e6-40aa-8986-f773d466d74e" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="25" />
 	<CircuitSymbol CircuitSymbolId="b989d703-a0d2-4d7d-8160-2fba2e1ed712" CircuitId="e6de7a2b-9542-4ea3-bae8-3bfecc992443" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="28" />
 	<CircuitSymbol CircuitSymbolId="339e8edd-1462-459f-9c1c-ca70665360db" CircuitId="44bebe1f-fa16-4520-a9c2-5136e69cff31" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="145" Y="25" />
-	<CircuitSymbol CircuitSymbolId="b51b01c2-bd54-450f-af43-922765a26c37" CircuitId="d40db309-d3dd-462c-8a57-31af412daffd" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="12" Y="12" />
-	<CircuitSymbol CircuitSymbolId="66b74783-440d-480d-8d0d-3afb3e765c54" CircuitId="76b7d52a-db1b-4db5-9555-97fec5512f1f" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="21" Y="12" />
 	<CircuitSymbol CircuitSymbolId="fc86a383-ba7e-41fd-ae6d-35c8b5c3871d" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="56" Y="40" />
 	<CircuitSymbol CircuitSymbolId="07579921-5f47-458a-86e7-6649ac744759" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="71" Y="61" />
 	<CircuitSymbol CircuitSymbolId="a6fcc595-5ad9-423f-bc03-ffda860660cf" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="84" Y="98" />
@@ -609,35 +514,15 @@
 	<CircuitSymbol CircuitSymbolId="49a1c44e-93ec-48d5-a594-4f56f831de7e" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="84" Y="91" />
 	<CircuitSymbol CircuitSymbolId="7d79ff30-6548-4987-860b-1b0a88212be5" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="101" Y="137" />
 	<CircuitSymbol CircuitSymbolId="366a19f9-e75e-4942-9fe7-05fd7a130977" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="90" Y="106" />
-	<CircuitSymbol CircuitSymbolId="bdb2cc3c-cd34-4273-943c-48bbe7a94f9f" CircuitId="3e3c3471-f5f0-46f8-badc-76e3c818cb2d" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="27" Y="12" />
-	<CircuitSymbol CircuitSymbolId="7409b3b2-9bd8-4aec-92d1-075f4eb4b87d" CircuitId="ccd94d4b-acab-4657-b37d-75298e8d76ff" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="18" Y="12" />
-	<CircuitSymbol CircuitSymbolId="6fff68e8-2060-4535-a178-131f25f6c70e" CircuitId="7a0709e6-7141-4af0-b606-508a933f9468" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="30" Y="12" />
 	<CircuitSymbol CircuitSymbolId="4d8daa8a-b638-4f60-9b71-8e5073d6340b" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="95" Y="122" />
-	<CircuitSymbol CircuitSymbolId="fc0e4d09-754c-4a8f-b1b7-7dd9edc4e907" CircuitId="2e013fb1-189b-4114-9508-3cbc024d9557" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="24" Y="12" />
-	<CircuitSymbol CircuitSymbolId="74df4bee-5beb-4bf6-b48e-92be4f01897b" CircuitId="088c3d1a-41ab-4594-8f36-9af0095c6e6f" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="15" Y="12" />
 	<CircuitSymbol CircuitSymbolId="7cb94453-a434-4ac2-9f79-169d5eab1073" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="95" Y="129" />
-	<CircuitSymbol CircuitSymbolId="8b56ec37-a38c-494c-9b86-c4d234104648" CircuitId="6447aee6-7fad-41dd-bfe6-e5d4bdb0a945" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="22" Y="39" />
-	<CircuitSymbol CircuitSymbolId="4767e820-8be6-42bc-b7db-ee0fe64c31ec" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="146" Y="11" />
-	<CircuitSymbol CircuitSymbolId="7e38d85e-3717-42f3-af31-b65eaf5d97cf" CircuitId="47ea8ff8-0f2b-4f99-9ed8-0440ccae85fb" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="22" Y="37" />
-	<CircuitSymbol CircuitSymbolId="161e7b1f-8388-4c5c-8911-817114e780cb" CircuitId="b5782add-be05-4857-b04a-e375d0fff5cf" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="22" Y="35" />
-	<CircuitSymbol CircuitSymbolId="372b4552-9de6-4034-bb68-16419c0c7f66" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="142" Y="11" />
-	<CircuitSymbol CircuitSymbolId="09cfb765-ad5e-41d4-a454-b1f56f68ca5c" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="138" Y="11" />
-	<CircuitSymbol CircuitSymbolId="71f64e7a-6ebf-4927-a4dc-cc26c9d9702b" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="118" Y="11" />
-	<CircuitSymbol CircuitSymbolId="580b4efa-86cd-4047-8be5-2a6d36ef8f42" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="130" Y="11" />
-	<CircuitSymbol CircuitSymbolId="241eb11f-ca21-4334-8243-a09460b40247" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="134" Y="11" />
 	<CircuitSymbol CircuitSymbolId="9e5a021d-bad7-49c5-9cca-f003dee0fb9a" CircuitId="54a31ff7-26a8-445c-babf-2a01bb1f2e2c" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="27" Y="25" />
 	<CircuitSymbol CircuitSymbolId="0fcab6f7-b619-4b01-bdf4-6262cf4e351b" CircuitId="a3480be0-cb9f-4461-8417-1790f6c5c63e" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="33" Y="22" />
 	<CircuitSymbol CircuitSymbolId="5110b9ae-9f15-478d-9362-4278626816dc" CircuitId="697cc36a-566f-4139-a159-5b988d012206" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="139" Y="22" />
-	<CircuitSymbol CircuitSymbolId="5f6666a5-3e39-493d-a6b3-0742146c6bb7" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="122" Y="11" />
-	<CircuitSymbol CircuitSymbolId="5e6da879-19d6-486f-9266-af2472c64da0" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="126" Y="11" />
-	<CircuitSymbol CircuitSymbolId="3ab02151-1d00-4297-8c69-e4f6199eeefd" CircuitId="f6c480c2-b280-445f-bd4e-9d3a3abf01c8" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="9" Y="12" />
 	<CircuitSymbol CircuitSymbolId="3bf56aab-da4c-4e05-88b4-94272f3f2101" CircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="53" Y="74" />
 	<CircuitSymbol CircuitSymbolId="720290c8-f1d1-48ab-98fe-090608a58711" CircuitId="33f128bf-c71f-47d9-8e32-d0b1ecee78d3" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="48" />
 	<CircuitSymbol CircuitSymbolId="9e7f5fce-db07-4f75-9e9b-fb9c2699c7bc" CircuitId="4218cc22-961e-4d5b-a1fa-351469e38ece" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="44" />
 	<CircuitSymbol CircuitSymbolId="f79340c9-2a47-430c-a5ba-4113f6aaa9c4" CircuitId="e14d71e2-b084-474a-b761-ad68e4f255e4" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="140" Y="46" />
-	<CircuitSymbol CircuitSymbolId="f26f067a-82f3-42a7-a199-a622991c746b" CircuitId="7ceda9e2-e9db-4186-a6e9-3072fb3200d4" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="3" Y="20" />
-	<CircuitSymbol CircuitSymbolId="2f346264-b370-4612-b57e-d9d1ce98d324" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="80" Y="4" />
-	<CircuitSymbol CircuitSymbolId="da9ad9ef-22ee-414d-be30-f728cef6b45f" CircuitId="ceda2560-62ce-461e-947b-4cb6bd666862" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="6" Y="6" />
 	<CircuitSymbol CircuitSymbolId="5735a761-0b44-4b00-b1ed-c6fc3ff69405" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="62" Y="69" />
 	<CircuitSymbol CircuitSymbolId="254f6e07-f2d3-499c-98f8-15e338b10ad9" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="62" Y="45" />
 	<CircuitSymbol CircuitSymbolId="516aa5a6-0123-4b55-8e98-4461ee57e501" CircuitId="b2b6245c-7152-4d37-8ca0-d44704d6f9de" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="16" Y="35" />
@@ -649,35 +534,11 @@
 	<CircuitSymbol CircuitSymbolId="4b936233-7b38-4ee6-9019-b8ea07155bc7" CircuitId="8d8b8bd9-c26c-4c26-878c-b8a15de7f3ab" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="76" Y="11" />
 	<CircuitSymbol CircuitSymbolId="7b0e7ff7-2a61-4003-8842-361b2ea31e8b" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="62" Y="33" />
 	<CircuitSymbol CircuitSymbolId="5f56539e-daa0-4f88-a727-ac3cb75c1f61" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="62" Y="51" />
-	<CircuitSymbol CircuitSymbolId="e34230f6-ec5b-4fbd-8113-c21513bb8cca" CircuitId="05e77f29-69b5-45dc-9227-7c49e3c7eee9" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="3" Y="6" />
 	<CircuitSymbol CircuitSymbolId="7a196a25-b84f-4994-b382-9a01ffda9621" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="62" Y="63" />
-	<CircuitSymbol CircuitSymbolId="60cbe296-53d1-4e23-8891-ec786e47a1e8" CircuitId="9958834f-6fe4-4735-8475-2e09a6348d54" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="9" Y="6" />
-	<CircuitSymbol CircuitSymbolId="0d6b93ed-1369-4c06-ab52-ed65d1c4f6fc" CircuitId="f14e4815-cdbc-4fe8-a923-54f42d954ca2" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="12" Y="6" />
-	<CircuitSymbol CircuitSymbolId="7d2bf2a0-062e-471c-936e-8a2e2af96f6e" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="71" Y="4" />
-	<CircuitSymbol CircuitSymbolId="6b63b2a2-bb30-4ee1-855d-1ae09fc96104" CircuitId="656e5708-1ce6-40bc-9a76-3906181520a1" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="21" Y="6" />
-	<CircuitSymbol CircuitSymbolId="fd970e32-d1fc-408c-b1c6-49a479bb3aff" CircuitId="b76e507d-82eb-42a7-9a68-88018a698907" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="24" Y="6" />
 	<CircuitSymbol CircuitSymbolId="6099ad09-75a5-499f-b705-89bde0c58dcc" CircuitId="62070b69-8e1f-4fbf-8f5b-0bb5fb081b4b" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="28" Y="11" />
-	<CircuitSymbol CircuitSymbolId="eebd81c5-649f-419f-840d-379d74a45990" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="74" Y="4" />
-	<CircuitSymbol CircuitSymbolId="a9e74074-984c-412a-8228-cb9e2402849d" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="77" Y="4" />
-	<CircuitSymbol CircuitSymbolId="4965284b-abe1-4c5a-a503-2e370fc74de8" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="89" Y="4" />
-	<CircuitSymbol CircuitSymbolId="d489ae8f-1296-4788-84db-5124138c4532" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="83" Y="4" />
-	<CircuitSymbol CircuitSymbolId="e80b4cb6-83c8-4b2a-ab93-286a136caf18" CircuitId="1129017a-07a0-4b61-8a02-872d45ab81aa" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="7" Y="35" />
-	<CircuitSymbol CircuitSymbolId="9568669e-8b2f-48c6-9ab2-498235f4e72c" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="86" Y="4" />
-	<CircuitSymbol CircuitSymbolId="67c8db76-1f4b-40ce-bc03-886898977dba" CircuitId="93daf4ae-bce4-40a1-873c-7e2c96d902f0" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="21" Y="20" />
-	<CircuitSymbol CircuitSymbolId="9653614f-9223-4501-a61e-60f19376660d" CircuitId="404930c2-a776-4eeb-a6a1-61904fab29ec" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="15" Y="6" />
-	<CircuitSymbol CircuitSymbolId="8c1ff223-cdf3-48ba-ad49-3a261740b1a0" CircuitId="9bb9c788-d965-419a-999b-34e429b5327d" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="6" Y="20" />
-	<CircuitSymbol CircuitSymbolId="f101477b-b78a-40c0-bc9c-c9c9768b33d5" CircuitId="159548cb-6227-4887-b59a-0768a4439898" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="9" Y="20" />
-	<CircuitSymbol CircuitSymbolId="ebee8c4c-4073-4245-9a47-10f09fc0c413" CircuitId="a062ae84-3099-4abf-8316-f8829c553b28" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="18" Y="20" />
-	<CircuitSymbol CircuitSymbolId="902ea76a-bc3c-41c5-b294-284732ef2914" CircuitId="37629c95-a0c4-4184-a3ef-82ed40152dcd" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="15" Y="20" />
 	<CircuitSymbol CircuitSymbolId="940d0b99-2ead-4aec-b5df-50e29bafa272" CircuitId="90522cb2-708e-4c2c-b187-e535f3d5f6fb" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="16" Y="25" />
-	<CircuitSymbol CircuitSymbolId="7e8f9e46-d889-4011-9c2b-32a5ba7c62ba" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="92" Y="4" />
-	<CircuitSymbol CircuitSymbolId="1616302e-8556-4c1d-bdbb-b70587142a52" CircuitId="7207b13f-ade2-469e-9c81-63fc37eab24b" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="24" Y="20" />
-	<CircuitSymbol CircuitSymbolId="e1268b8d-1f14-42a2-9303-22eec1db90db" CircuitId="0765132b-ec45-4c77-b1ed-1a4de214a10d" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="12" Y="20" />
 	<CircuitSymbol CircuitSymbolId="b5a79e56-62f7-4779-9619-b35760c2fae7" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="62" Y="57" />
-	<CircuitSymbol CircuitSymbolId="22be81b5-d567-4ee4-849f-c67227145138" CircuitId="94f410d5-9124-4162-819c-7fe8f3a238b8" LogicalCircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" X="18" Y="6" />
 	<CircuitSymbol CircuitSymbolId="bcb3a539-d9f8-41cc-9227-7937d38765c7" CircuitId="a275a39c-13c4-430b-b2dd-7a101aeb59f0" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="107" Y="91" />
-	<CircuitSymbol CircuitSymbolId="e47036bf-333e-4849-bff8-a145fb5157db" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="68" Y="8" />
-	<CircuitSymbol CircuitSymbolId="b14aa58f-9c43-448b-aa73-1c6c3c865607" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="61" Y="8" />
 	<CircuitSymbol CircuitSymbolId="0ae61a76-971d-43f5-b684-a515183ab1c0" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="50" Y="33" />
 	<CircuitSymbol CircuitSymbolId="8e1074a4-4747-4ccd-a8bb-5daaf2f0017a" CircuitId="00000000-0000-0000-0000-000000040300" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="27" Y="23" />
 	<CircuitSymbol CircuitSymbolId="5e5b288c-0772-4f02-86ec-751af730476d" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="50" Y="23" />
@@ -691,16 +552,9 @@
 	<CircuitSymbol CircuitSymbolId="fef436cf-bd91-414a-a9a0-9e31df1b0267" CircuitId="00000000-0000-0000-0000-000000050200" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="41" Y="22" />
 	<CircuitSymbol CircuitSymbolId="0d33b2b6-465b-4b31-b482-6f926269942c" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="27" Y="33" />
 	<CircuitSymbol CircuitSymbolId="3db1f313-ff01-4641-8074-dbf1d60efcbe" CircuitId="463bf624-5ce0-4580-ad51-aad11e7d5cb3" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="64" Y="13" />
-	<CircuitSymbol CircuitSymbolId="93325f17-cad6-4628-b2ff-e51c6d5aee7b" CircuitId="6cd5ebed-99ea-4754-948c-3d26bea0db95" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="5" Y="13" />
-	<CircuitSymbol CircuitSymbolId="b4e2a5b7-34b7-4fd8-b8b8-f2a3d36d9cf4" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="82" Y="19" />
-	<CircuitSymbol CircuitSymbolId="56dfa66f-2813-462c-98a3-0855ca16f787" CircuitId="bd8b2781-31ce-4285-a817-363af401d901" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="5" Y="17" />
 	<CircuitSymbol CircuitSymbolId="23afe161-336e-4785-8b22-82750fe4e3d2" CircuitId="00000000-0000-0000-0000-000000040300" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="63" Y="18" />
-	<CircuitSymbol CircuitSymbolId="3ca9ae56-f866-4421-8ee2-dfdbb2ce516c" CircuitId="71027184-0798-46e1-93ef-41a273a8e013" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="5" Y="15" />
-	<CircuitSymbol CircuitSymbolId="9b8ba674-0476-43d2-ab0e-0a78de36c164" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="64" Y="8" />
 	<CircuitSymbol CircuitSymbolId="d6c0558a-1647-4413-ae19-558ff909b8d7" CircuitId="946f718b-7c89-4811-af2f-ba7b0a6598e6" LogicalCircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" X="75" Y="19" />
 	<CircuitSymbol CircuitSymbolId="a2592b6c-b71f-4eaf-9b17-6245931a24c9" CircuitId="1feee4dc-b92b-4523-8ed6-e318f1ec359d" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="106" Y="74" />
-	<CircuitSymbol CircuitSymbolId="cfc291e9-16a9-442c-b814-7f3653c97f95" CircuitId="ded65f5d-c1e4-4dd9-b2d0-db4cf5369586" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="5" Y="35" />
-	<CircuitSymbol CircuitSymbolId="c34cf572-0cfd-4c03-b0ca-6e5cf02e4a66" CircuitId="036e565b-927e-4c78-a7c8-458890ecd245" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="5" Y="32" />
 	<CircuitSymbol CircuitSymbolId="b04f7499-1a05-4468-a3e7-2f6c5debe483" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="59" Y="58" />
 	<CircuitSymbol CircuitSymbolId="8af4f77f-aa1e-400d-ae28-0c8cd3a699d6" CircuitId="08530215-4261-40f1-a7eb-152859d2f989" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="96" Y="32" />
 	<CircuitSymbol CircuitSymbolId="615eb484-7a97-4c7e-a177-925a14669a47" CircuitId="d991cee0-4486-4923-98db-7a1250a4f7f9" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="14" Y="35" />
@@ -723,18 +577,10 @@
 	<CircuitSymbol CircuitSymbolId="e15572b0-e3f2-4858-bd31-d1f5cd115ab8" CircuitId="00000000-0000-0000-0000-000000030200" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="31" Y="79" />
 	<CircuitSymbol CircuitSymbolId="488c2369-27ec-4e46-8e42-3aecf41515d3" CircuitId="00000000-0000-0000-0000-000000020101" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="76" Y="69" />
 	<CircuitSymbol CircuitSymbolId="f270d439-3888-4245-a1d1-4dbd2b84ae75" CircuitId="00000000-0000-0000-0000-000000020101" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="41" Y="31" />
-	<CircuitSymbol CircuitSymbolId="e58978b4-2ec9-4445-9f9e-ca40d179e127" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="103" Y="35" />
 	<CircuitSymbol CircuitSymbolId="9d7ccc9e-a4b1-4268-ae40-53f42c683923" CircuitId="00000000-0000-0000-0000-000000020101" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="33" Y="28" />
-	<CircuitSymbol CircuitSymbolId="f07e333c-2eb5-428b-bad5-b0f2a3ad0674" CircuitId="7e1777d0-6d6b-4bc3-b123-3995a472d58c" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="5" Y="26" />
-	<CircuitSymbol CircuitSymbolId="c1af4ce4-84df-416b-8207-2c7c97d9aba2" CircuitId="a952fcd8-ea52-4739-82aa-5928aa51eebd" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="5" Y="29" />
-	<CircuitSymbol CircuitSymbolId="e27ee985-fb74-47bb-a506-b755c00e8529" CircuitId="6e97fb26-4070-4f4c-8430-edd90dcc6e8b" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="5" Y="38" />
-	<CircuitSymbol CircuitSymbolId="c9b1a052-3098-4785-99b8-446da43aabdb" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="103" Y="26" />
-	<CircuitSymbol CircuitSymbolId="c380ceb5-b83a-4f6c-866b-0f7d3df0084c" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="103" Y="29" />
-	<CircuitSymbol CircuitSymbolId="e7bc4986-fc48-4df3-9ff4-fcfeb937a7e8" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="103" Y="32" />
 	<CircuitSymbol CircuitSymbolId="9cacab86-1e07-4d1f-89a8-d5c68c2effd0" CircuitId="a4886e57-5e0d-4950-8e0b-ee7f50ab1909" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="96" Y="35" />
 	<CircuitSymbol CircuitSymbolId="22dd7a2f-1172-41c1-8e26-1d3126668e8f" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" X="83" Y="68" />
 	<CircuitSymbol CircuitSymbolId="5ac686dc-8203-4b29-8418-9db0c1439304" CircuitId="6b93c30f-99e9-416d-864b-43dde0e64ff2" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="29" Y="61" />
-	<CircuitSymbol CircuitSymbolId="397914c1-177f-40eb-8c3b-94e810108a10" CircuitId="590d8595-3535-45e8-b165-b5c3f970af6d" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="15" Y="25" />
 	<CircuitSymbol CircuitSymbolId="5c7654f6-a676-4102-a171-37f2db3eb687" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="65" Y="44" />
 	<CircuitSymbol CircuitSymbolId="0e8f2d4a-4916-4868-8d00-b9da04027558" CircuitId="662b4cf4-5dd6-4701-ae40-0a42a3cec031" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="22" Y="31" />
 	<CircuitSymbol CircuitSymbolId="9c0039a8-ebe5-4d10-8248-82a187886078" CircuitId="0782155b-6a48-409c-8b9b-387286ac24ba" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="22" Y="27" />
@@ -764,28 +610,8 @@
 	<CircuitSymbol CircuitSymbolId="fd075a3d-0657-48bc-a74b-16d667c8c962" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="43" Y="120" />
 	<CircuitSymbol CircuitSymbolId="9707b533-2e8f-4500-b813-78df9964ed5d" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="65" Y="88" />
 	<CircuitSymbol CircuitSymbolId="9b3c3da7-7948-43e6-b34b-fff189ec9539" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="65" Y="121" />
-	<CircuitSymbol CircuitSymbolId="aabd0854-7520-41e8-b2f0-dcc5adcbf15a" CircuitId="66a255c8-04aa-4e99-858e-3c8069b8e5b8" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="23" Y="8" />
 	<CircuitSymbol CircuitSymbolId="790412a8-fad0-4627-8d62-410f2e50bd60" CircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="78" Y="122" />
-	<CircuitSymbol CircuitSymbolId="413fffbc-11a6-4e06-a93a-25950f2764b8" CircuitId="13658cbc-6935-4248-921f-605bc95978ca" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="5" Y="8" />
-	<CircuitSymbol CircuitSymbolId="618b13c0-7100-4dcc-81cd-359542eea3f8" CircuitId="4b239b0a-bf04-46bb-b9e6-2adf5dd9fc89" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="11" Y="8" />
-	<CircuitSymbol CircuitSymbolId="a8cb92b3-e59f-4139-8393-09299ddc92af" CircuitId="376f7ff9-59e4-4bb4-8cbb-010bc0e574ec" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="17" Y="8" />
-	<CircuitSymbol CircuitSymbolId="79575fea-4269-48fe-8e93-a3a7bc3b6461" CircuitId="7e304141-a2f0-495f-8489-866af2c701ba" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="20" Y="8" />
-	<CircuitSymbol CircuitSymbolId="1cbf1b04-a56a-41d2-bf4b-74db2b5041bf" CircuitId="b3ee2544-eb4d-4213-b852-0e04a9c1326c" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="26" Y="8" />
-	<CircuitSymbol CircuitSymbolId="33fc7267-a935-4a1d-980c-6a398e9afcec" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="79" Y="9" />
-	<CircuitSymbol CircuitSymbolId="d946c269-d69e-46e8-b0d6-5e7bfca3a853" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="88" Y="9" />
-	<CircuitSymbol CircuitSymbolId="ea9076ce-aa30-49c6-ba63-d2e1a2ce1ea2" CircuitId="8fd3d5e8-64d2-4517-8880-9d0ad41fe5d6" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="15" Y="23" />
-	<CircuitSymbol CircuitSymbolId="6c471023-a76a-4339-9df0-9a1d73a03859" CircuitId="199547ae-8bbe-40af-aca4-904529553f29" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="15" Y="31" />
-	<CircuitSymbol CircuitSymbolId="7986f27f-c964-4210-b38f-12a73f2769fd" CircuitId="0f3fdd1f-4017-4df4-98af-2d95836b94b8" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="15" Y="27" />
-	<CircuitSymbol CircuitSymbolId="57992603-6e6d-4412-81fe-53fde1856236" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="91" Y="9" />
-	<CircuitSymbol CircuitSymbolId="e442b0ab-9810-469d-a331-09b943dcf5d8" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="97" Y="9" />
-	<CircuitSymbol CircuitSymbolId="a3917c15-3df6-4011-a87c-0203b5c3cbc5" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="82" Y="9" />
-	<CircuitSymbol CircuitSymbolId="e9aee418-09dd-4ffd-b636-9627fbc0b699" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="85" Y="9" />
 	<CircuitSymbol CircuitSymbolId="7fbe3679-e756-4759-a4ae-dbead5f683a0" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="65" Y="110" />
-	<CircuitSymbol CircuitSymbolId="7c0884ed-5264-418f-b14a-a560f3266f0b" CircuitId="e690ea33-2614-41eb-bbcc-5721d81c41bd" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="15" Y="29" />
-	<CircuitSymbol CircuitSymbolId="4952e69d-f05c-4127-852a-0e6310c6a902" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="100" Y="9" />
-	<CircuitSymbol CircuitSymbolId="1e719fd3-d256-4728-aad3-5b9dcc4d6913" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="94" Y="9" />
-	<CircuitSymbol CircuitSymbolId="03bee6d8-fbb9-41ca-b8f3-c316a8b91546" CircuitId="f7481464-b7ef-4328-b9a4-7fa3533446d6" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="14" Y="8" />
-	<CircuitSymbol CircuitSymbolId="33b9d6d3-5762-4b88-a8d2-038c95abf3ff" CircuitId="9cc39959-e6a1-4ff3-b940-1082eaac0846" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="8" Y="8" />
 	<CircuitSymbol CircuitSymbolId="595a76d5-589e-4ed3-ad73-1c18b408ca8f" CircuitId="2fc852b3-7ba0-4a47-85f7-10d84336de22" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="104" Y="16" />
 	<CircuitSymbol CircuitSymbolId="42d94189-c352-4546-8a81-bdf50e7142aa" CircuitId="deced87d-885d-4681-af17-6a0647c3ac08" LogicalCircuitId="adc56f7b-2026-4d37-921d-356de85793bd" X="65" Y="77" />
 	<CircuitSymbol CircuitSymbolId="1e063a86-c748-4a5e-9e9a-1f4996ffa750" CircuitId="adc56f7b-2026-4d37-921d-356de85793bd" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="53" Y="84" />
@@ -793,20 +619,15 @@
 	<CircuitSymbol CircuitSymbolId="6fcbdf86-6ec6-4af7-8613-a7cefea5e31a" CircuitId="00000000-0000-0000-0000-000000030200" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="40" Y="85" />
 	<CircuitSymbol CircuitSymbolId="610b7849-4fee-470e-b694-b99c9f1cfe7b" CircuitId="dcd79b47-a414-4012-97be-f111ca2c132b" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="52" />
 	<CircuitSymbol CircuitSymbolId="b1eaf2db-60ce-45d0-8c7a-89a881a8814e" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="33" Y="33" />
-	<CircuitSymbol CircuitSymbolId="b6ba9efa-906c-4799-9ff7-e578beec97ad" CircuitId="e15a7da7-74f4-4eeb-8f67-ba8afa287703" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="9" Y="12" />
 	<CircuitSymbol CircuitSymbolId="abb74c80-e1c7-4ec4-ab22-d4cfee537140" CircuitId="2f0db5f0-2e68-4bbf-9305-482ae011bcc6" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="54" Y="11" />
 	<CircuitSymbol CircuitSymbolId="4c99de15-45af-43da-a3f0-76be72896513" CircuitId="97a45f76-dd1e-4816-b631-ccf3b63bf664" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="14" Y="8" />
 	<CircuitSymbol CircuitSymbolId="9dacf058-ae81-4ee4-aa92-356964eeefc6" CircuitId="d56bd90f-393c-4f56-bb67-0efad7595f51" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="14" Y="10" />
 	<CircuitSymbol CircuitSymbolId="04c139a5-0938-42e9-999c-05b5aaee4823" CircuitId="a8afd5e8-a154-4421-9161-7fd02e8c1742" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="14" Y="12" />
 	<CircuitSymbol CircuitSymbolId="e648a34c-0c1b-4598-a7b0-667681a2075a" CircuitId="5e50cbf5-b27e-4927-9643-54f7b8e80057" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="54" Y="9" />
 	<CircuitSymbol CircuitSymbolId="f4be0374-9a4a-4246-91ff-ca04c790a9c7" CircuitId="00000000-0000-0000-0000-000000050200" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="33" Y="24" />
-	<CircuitSymbol CircuitSymbolId="4eaaf121-f06a-4352-a142-3d980ff6b7e6" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="60" Y="11" />
 	<CircuitSymbol CircuitSymbolId="c9401436-9e02-4eed-ab9b-60f4c2387650" CircuitId="00000000-0000-0000-0000-000000050200" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="26" Y="23" />
-	<CircuitSymbol CircuitSymbolId="ab69aa58-ccb7-41dc-8328-f22e6143cc2d" CircuitId="5d130640-2e65-4d82-bfb9-a5938a56f317" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="9" Y="10" />
 	<CircuitSymbol CircuitSymbolId="e1de2039-ca45-470b-a6fe-3cfa3eb0bf5a" CircuitId="00000000-0000-0000-0000-000000030200" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="44" Y="30" />
 	<CircuitSymbol CircuitSymbolId="38909dbc-a280-4db9-9c9b-e02f9686f83f" CircuitId="00000000-0000-0000-0000-000000040200" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="26" Y="29" />
-	<CircuitSymbol CircuitSymbolId="0b3040e1-f4f7-4d7c-b3da-e6129714b54c" CircuitId="99160784-1d1e-4924-9a9a-1ca897893196" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="9" Y="8" />
-	<CircuitSymbol CircuitSymbolId="0d75949b-39ea-46e6-89e3-5bffc45f83fa" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" X="60" Y="9" />
 	<CircuitSymbol CircuitSymbolId="c1432eec-e0b0-46ee-a748-630929972d8d" CircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="78" Y="10" />
 	<CircuitSymbol CircuitSymbolId="db5ff31c-e473-482b-8820-8cddaa1cb089" CircuitId="38a7a3ea-8167-406e-a616-8c614c609abe" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="78" Y="22" />
 	<CircuitSymbol CircuitSymbolId="966ac7f9-fd43-4b37-81ae-a25dd8f33bca" CircuitId="0c06fdab-4d24-4fba-962d-97a07c024366" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="107" Y="20" />
@@ -824,29 +645,16 @@
 	<CircuitSymbol CircuitSymbolId="f22feda1-1038-4033-afe1-5385473ec729" CircuitId="c0abe6be-8204-4986-be1b-9ef7e3fb2c9e" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="5" Y="133" />
 	<CircuitSymbol CircuitSymbolId="9b49f8b4-a71a-48e6-a6c5-1d2125c4c0b3" CircuitId="91a3c261-8edb-4ec8-a556-82588e08b116" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="8" Y="133" />
 	<CircuitSymbol CircuitSymbolId="c73c3e5e-54a3-48e9-880b-482e5a3b7fe6" CircuitId="22ea0019-4038-477c-89ad-70347131d90b" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="12" Y="85" />
-	<CircuitSymbol CircuitSymbolId="25ba73dd-d685-44fa-86f2-907c2698d355" CircuitId="c34fd44b-5438-4d16-a263-ff70773843c9" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="40" Y="10" />
-	<CircuitSymbol CircuitSymbolId="2236db59-7248-48d8-a4bb-f9855d926e70" CircuitId="f878a073-90c3-4476-a3ce-270afabd67bb" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="42" Y="58" />
 	<CircuitSymbol CircuitSymbolId="3d3d7c5d-7ec5-439d-b9e6-7834537aaafc" CircuitId="e6f1c7d7-927f-4bba-8b46-cabb66c392fb" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="20" Y="133" />
 	<CircuitSymbol CircuitSymbolId="18107dc9-24c4-4de2-a365-ffa1b1c2716e" CircuitId="9929a9ed-326c-4013-a01e-f0bd743ae24a" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="107" Y="13" />
 	<CircuitSymbol CircuitSymbolId="dffbe371-8e0d-41c6-a710-200f34d018ce" CircuitId="4cf37b8b-5d2d-489a-8660-60cbfd5df3e0" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="99" Y="10" />
-	<CircuitSymbol CircuitSymbolId="89980cdf-4cf5-43b8-ae58-e81b9d2ce0a7" CircuitId="7d8d8ee0-9523-4206-862b-fc25d3e26a55" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="37" Y="10" />
 	<CircuitSymbol CircuitSymbolId="3a28d444-a5fd-49dd-ad50-16a239fffff7" CircuitId="b02fa5b3-cc57-4d88-8a28-0a28de24aa57" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="17" Y="133" />
 	<CircuitSymbol CircuitSymbolId="3b0b97b7-7487-4161-94b0-454b5bbd9a6a" CircuitId="b1d8af81-0114-4b9c-927d-d5c4edd9fafe" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="15" Y="85" />
 	<CircuitSymbol CircuitSymbolId="3c72dbb9-9e49-4897-b9ba-f304326185f8" CircuitId="707d0d9a-59e9-4252-a846-21ec949ba569" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="18" Y="85" />
-	<CircuitSymbol CircuitSymbolId="5901d277-b6c2-49dc-a4c9-673cf070f294" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="108" Y="6" />
 	<CircuitSymbol CircuitSymbolId="7caa1949-c17d-405d-b981-34e5849c1fd2" CircuitId="604b2a6a-9473-449a-91ad-4eb17d47dc46" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="9" Y="85" />
 	<CircuitSymbol CircuitSymbolId="a38e249b-2654-4c9c-9acd-7768ffb93c52" CircuitId="c34e91db-8394-435c-9093-88adfce2b4f9" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="3" Y="85" />
-	<CircuitSymbol CircuitSymbolId="a4e8b499-2254-488d-aa10-c7c9baa20e72" CircuitId="93e5316d-dede-4792-a88f-9792186dabce" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="39" Y="58" />
-	<CircuitSymbol CircuitSymbolId="8256a18d-d044-4397-ad52-9bdb1552cbf1" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="126" Y="6" />
-	<CircuitSymbol CircuitSymbolId="ee50da60-0059-446d-b532-6ae48208a32d" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="117" Y="6" />
-	<CircuitSymbol CircuitSymbolId="8cdc61a7-2fd4-4e46-bae7-42d9f6508dfd" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="120" Y="6" />
-	<CircuitSymbol CircuitSymbolId="b2f0319f-3a7f-4ced-954d-e4afd62b9982" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="105" Y="6" />
 	<CircuitSymbol CircuitSymbolId="31e3e06b-032c-427b-b76c-3d9ba56216f7" CircuitId="b03abe03-3674-4ce5-8c19-8b251a2a3684" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="6" Y="85" />
 	<CircuitSymbol CircuitSymbolId="ca5491d9-dbb8-44e0-b82a-39042517c47b" CircuitId="d65002cd-7042-4234-9df9-6f28443c18a2" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="47" Y="72" />
-	<CircuitSymbol CircuitSymbolId="490fd4ee-65bb-4a78-a7eb-0cc92829a415" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="114" Y="6" />
-	<CircuitSymbol CircuitSymbolId="9d3735de-9103-4b9c-b631-7375dde26cd7" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="123" Y="6" />
-	<CircuitSymbol CircuitSymbolId="1e2c5b56-efbf-4582-a926-8e3cd1a94219" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="111" Y="6" />
-	<CircuitSymbol CircuitSymbolId="937d0ad3-7774-4a8a-9f7c-0c8fdcd3a5d7" CircuitId="00000000-0000-0000-0000-000000080100" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="116" Y="20" />
 	<CircuitSymbol CircuitSymbolId="d12e1994-3e64-4d51-985a-8be84f8baf5a" CircuitId="0fbc384b-74b2-4a7b-a38a-be2213f699f1" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X="14" Y="133" />
 	<CircuitSymbol CircuitSymbolId="85daafd1-e928-4052-9b08-8f0d28f26289" CircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="94" Y="92" />
 	<CircuitSymbol CircuitSymbolId="0b552379-1626-4d60-8503-d5ec6e3d29c6" CircuitId="1a78a384-ecf0-4daf-8472-cebad6d6e804" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="62" Y="83" />
@@ -1199,7 +1007,6 @@
 	<Wire WireId="42126199-e515-43ab-b574-b7d92f15d79c" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X1="18" Y1="22" X2="18" Y2="20" />
 	<Wire WireId="67730182-0c00-4b85-9c1d-027e4a2b267a" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X1="18" Y1="20" X2="20" Y2="20" />
 	<Wire WireId="fda6ba87-07b3-49fc-9457-b152e74b88f5" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X1="35" Y1="11" X2="39" Y2="11" />
-	<Wire WireId="91e576fd-3848-44cf-a340-6eeeeedce42d" LogicalCircuitId="c155fb78-ae01-43a2-9e5c-6bb144ab6138" X1="39" Y1="11" X2="47" Y2="11" />
 	<Wire WireId="17a7eddd-588b-46b7-a972-2db937311dea" LogicalCircuitId="5abc6f77-a01a-4daa-aa2b-b48c5f443d11" X1="15" Y1="16" X2="20" Y2="16" />
 	<Wire WireId="d1e6d264-d7bd-4c79-ba33-81dfe86f787b" LogicalCircuitId="5abc6f77-a01a-4daa-aa2b-b48c5f443d11" X1="20" Y1="16" X2="20" Y2="21" />
 	<Wire WireId="b7e92a4a-71d8-4c79-b920-f05db8aebe0a" LogicalCircuitId="5abc6f77-a01a-4daa-aa2b-b48c5f443d11" X1="20" Y1="21" X2="23" Y2="21" />
@@ -2689,7 +2496,6 @@
 	<Wire WireId="7c125754-4d61-4e48-98e3-3b67627cd116" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="65" Y1="41" X2="78" Y2="41" />
 	<Wire WireId="ec2e9f32-0457-4ed8-a71a-bddb1b2066e4" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="77" Y1="73" X2="77" Y2="13" />
 	<Wire WireId="985b8d5f-6362-45e8-9823-d0394730aaff" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="77" Y1="13" X2="78" Y2="13" />
-	<Wire WireId="e9102950-15d5-40df-96ae-ff8f9b5eba98" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="116" Y1="21" X2="107" Y2="21" />
 	<Wire WireId="81a28dc9-ead8-4669-9e02-cfd6186f40b1" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="73" Y1="48" X2="78" Y2="48" />
 	<Wire WireId="1ed0426d-6648-40ad-b58f-10c7c15a03ba" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="74" Y1="54" X2="78" Y2="54" />
 	<Wire WireId="4f79e85e-e0c2-42fc-844b-c55c05b7e7e8" LogicalCircuitId="1e798286-4b99-47c6-80b6-f94dbf3c0903" X1="87" Y1="35" X2="87" Y2="14" />
@@ -2974,8 +2780,6 @@
 	<TextNote TextNoteId="3b7dc2f6-eabc-459c-b06d-07fa5ec40053" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="147" Y="61" Width="2" Height="2" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot; FontSize=&quot;28&quot; Background=&quot;#FF00FF00&quot; xml:lang=&quot;es-cr&quot;&gt;5&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="d358364d-1257-4670-8593-3da720cd84bf" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="147" Y="63" Width="2" Height="2" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot; FontSize=&quot;28&quot; Background=&quot;#FF00FF00&quot; xml:lang=&quot;es-cr&quot;&gt;6&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="4fec2926-0698-462b-a234-8a762f437e2e" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="147" Y="65" Width="2" Height="2" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot; FontSize=&quot;28&quot; Background=&quot;#FF00FF00&quot; xml:lang=&quot;es-cr&quot;&gt;7&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
-	<TextNote TextNoteId="55a4f53d-781c-4e87-9198-4d9b2b7cc2c3" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="51" Y="14" Width="2" Height="1" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot;&gt;Q'&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
-	<TextNote TextNoteId="2d48e918-e7ed-4e6b-82e3-2ea7acdc924c" LogicalCircuitId="afb906d6-be95-40dc-afaf-ca84698e87ab" X="47" Y="14" Width="2" Height="1" Note="&lt;FlowDocument PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot;&gt;Q&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="e8c35c41-3496-4985-a836-c25dd2e99146" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="78" Y="82" Width="3" Height="1" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot;&gt;DFF3&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="4d1a8207-0e59-4323-88fb-cdf57a35a980" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="101" Y="136" Width="3" Height="1" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot;&gt;MUX7&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
 	<TextNote TextNoteId="5287cce1-f96e-438d-b27a-fb88a944000c" LogicalCircuitId="f2b4f94c-7ae8-48bb-886f-6c85d392c6c2" X="95" Y="121" Width="3" Height="1" Note="&lt;FlowDocument TextAlignment=&quot;Left&quot; PagePadding=&quot;5,0,5,0&quot; AllowDrop=&quot;True&quot; NumberSubstitution.CultureSource=&quot;User&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph&gt;&lt;Run FontWeight=&quot;Bold&quot;&gt;MUX6&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;" />
