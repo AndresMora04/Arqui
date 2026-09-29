@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CircuitProject xmlns="http://LogicCircuit.net/2.0.0.14/CircuitProject.xsd">
-	<Project ProjectId="c5f49ac3-6520-4bec-bc63-613314f904b7" Zoom="0.20426966292135004" LogicalCircuitId="d9dbc73d-9bd8-49d8-a59f-cf09741313e0" />
+	<Project ProjectId="c5f49ac3-6520-4bec-bc63-613314f904b7" Zoom="0.8042696629213499" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" />
 	<CollapsedCategory Name="MULT" />
 	<CollapsedCategory Name="ALU" />
 	<CollapsedCategory Name="CALC" />
@@ -467,9 +467,6 @@
 	<Constant ConstantId="fde3d32d-8ecd-42e7-9620-4d7f5de0c00a" />
 	<Constant ConstantId="f81dafa4-02ff-4246-b4b0-9ec401386d07" BitWidth="8" Value="3" />
 	<Constant ConstantId="301d0f3e-a91a-4900-808e-b28193189b93" BitWidth="12" />
-	<CircuitButton CircuitButtonId="cf5a3ef4-d8c3-47bc-8dcb-641e21c45d2b" IsToggle="True" />
-	<CircuitButton CircuitButtonId="a638c991-7c56-4d13-8ee9-0deccf5c5724" IsToggle="True" />
-	<CircuitButton CircuitButtonId="bf8515e9-811e-4c6a-8fc0-9707848dc689" IsToggle="True" />
 	<CircuitButton CircuitButtonId="88f29dbe-1a69-4afe-ac97-35f22614d18f" Notation="Q5" IsToggle="True" />
 	<CircuitButton CircuitButtonId="4880eb22-5b6d-49b6-b826-4715d3b0c078" Notation="M2" IsToggle="True" />
 	<CircuitButton CircuitButtonId="b16b6caa-0973-4537-8576-2f2923f68030" IsToggle="True" />
@@ -1058,9 +1055,6 @@
 	<CircuitSymbol CircuitSymbolId="3c3d3798-bec5-4c17-a05f-8733f652e3ba" CircuitId="30cf6315-1e28-4181-bb7a-8b5f8ea15feb" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="7" />
 	<CircuitSymbol CircuitSymbolId="2f78d2f5-3832-4a19-b039-8440f4820a00" CircuitId="55eaa564-514c-4c4a-9093-e4214637c3bc" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="14" />
 	<CircuitSymbol CircuitSymbolId="7b5d7676-be6c-45d7-a449-496165afa91d" CircuitId="1fc6be03-7ce8-416d-a237-becd7be8061a" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="7" Y="17" />
-	<CircuitSymbol CircuitSymbolId="fc8d2c94-4228-48b5-a36b-94c219a930ad" CircuitId="cf5a3ef4-d8c3-47bc-8dcb-641e21c45d2b" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="5" Y="122" />
-	<CircuitSymbol CircuitSymbolId="9a7fe2da-a97d-45a8-a4a4-f1616e60529d" CircuitId="a638c991-7c56-4d13-8ee9-0deccf5c5724" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="5" Y="118" />
-	<CircuitSymbol CircuitSymbolId="b9ffd8cb-a353-47ec-a99b-398d6d0cbff5" CircuitId="bf8515e9-811e-4c6a-8fc0-9707848dc689" LogicalCircuitId="f904e885-b659-4221-b28f-5d30c1513f7c" X="5" Y="114" />
 	<CircuitSymbol CircuitSymbolId="1a120d83-ad6b-45bd-bd39-08e453258b2f" CircuitId="88f29dbe-1a69-4afe-ac97-35f22614d18f" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="27" Y="38" />
 	<CircuitSymbol CircuitSymbolId="668d1df3-ce7b-4954-abbb-9dcba3b74fd6" CircuitId="4880eb22-5b6d-49b6-b826-4715d3b0c078" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="36" Y="10" />
 	<CircuitSymbol CircuitSymbolId="2de07c70-dd53-4ec5-ba2e-36bf07ca6f74" CircuitId="7030786b-b83d-45f4-a69d-d6fe82ddbf97" LogicalCircuitId="3aa1e133-77e3-41ef-963d-019573d44173" X="11" Y="54" />
